@@ -90,7 +90,7 @@ const quesJSON = [
               score=score-0.25;
           }
           scoreEl.textContent = `Score: ${score} / ${totalScore}`;   
-       nextQuestion();
+          setTimeout(nextQuestion, 150);
           });
       });
   }
